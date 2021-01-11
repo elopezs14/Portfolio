@@ -4,17 +4,19 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Score Keeper </title>
+        <title>Score Keeper</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="assets/resources/css/index.css">
     </head>
     <body>
         
-        <h1><span id="p1Score">0</span> to <span id="p2Score">0</span></h1>
+        <h1><span id="p1ScoreDisplay">0</span> to <span id="p2ScoreDisplay">0</span></h1>
         <button id="p1Button">+1 Player One</button>
         <button id="p2Button">+1 Player Two</button>
         <button id="resetButton">Reset</button>
+        <label for="quantity">Play to:</label>
+        <input type="number" id="winningScore" name="quantity" min="1" max="5"> 
         
         <script src="assets/resources/js/index.js"></script>
     </body>

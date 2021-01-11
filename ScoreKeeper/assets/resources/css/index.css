@@ -1,1 +1,9 @@
 h1 {}
+
+.winner {
+    color: green;
+}
+
+.loser {
+    color: red;
+}
