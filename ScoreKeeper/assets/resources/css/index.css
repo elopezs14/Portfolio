@@ -7,3 +7,10 @@ h1 {}
 .loser {
     color: red;
 }
+
+.main-Display {
+    margin: auto;
+    width: 50%;
+    border: 3px;
+    padding: 10px;
+}
